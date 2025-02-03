@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>THE ERIC MEME </title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">$ERIC</div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#tokenomics">Tokenomics</a>
+                <a href="#faq">FAQ</a>
+            </div>
+        </nav>
+    </header>
+      <section class="hero">
+          <div class="hero-content">
+              <h1>THE ERIC MEME</h1>
+              <p>Embrace the Legacy of Old Money Excellence</p>
+              <div class="button-group">
+                  <button class="cta-button">Buy with Card</button>
+                  <button class="secondary-button">Buy with Crypto</button>
+              </div>
+          </div>
+      </section>
+    <section class="token-info" id="about">
+        <div class="container">
+            <div class="address-box">
+                <h3>Solana Token Address</h3>
+                <div class="contract-display">
+                    <code>CA : IN PROGRESS</code>
+                    <button class="copy-button" onclick="copyContract()">Copy</button>
+                </div>
+            </div>
+            
+            <div class="disclaimer">
+                <p>Eric Trump tokens are digital collectibles intended to function as an expression of support for and engagement with the values embodied by the symbol $ERIC and the associated artwork, and are not intended to be, or to be the subject of, an investment opportunity, investment contract, or security of any type. This website is not political and has nothing to do with any political campaign or any political office or governmental agency. <a href="#">See Terms & Conditions Here</a></p>
+            </div>
+
+            <div class="cta-section">
+                <h3>Buy Now with a Debit Card or Crypto!</h3>
+                <button class="buy-button">Buy Now</button>
+            </div>
+        </div>
+    </section>
+      <section class="tokenomics" id="tokenomics">
+        <h2 style="margin-left: -70px;">Token Distribution</h2>
+          <div class="chart-container">
+            <canvas id="distributionChart"></canvas>
+            <div class="chart-legends">
+                <div class="legend-item">
+                    <span class="legend-color" style="background: #A27B5C"></span>
+                    <span class="legend-label">Liquidity</span>
+                </div>
+                <div class="legend-item">
+                    <span class="legend-color" style="background: #DCD7C9"></span>
+                    <span class="legend-label">Public Distribution</span>
+                </div>
+                <div class="legend-item">
+                    <span class="legend-color" style="background: #3F4E4F"></span>
+                    <span class="legend-label">Team Vesting</span>
+                </div>
+                <div class="legend-item">
+                    <span class="legend-color" style="background: #2C3639"></span>
+                    <span class="legend-label">Treasury</span>
+                </div>
+                <div class="legend-item">
+                    <span class="legend-color" style="background: #8B7355"></span>
+                    <span class="legend-label">Community</span>
+                </div>
+            </div>
+        </div>
+        
+        
+          <div class="vesting-schedule">
+              <h3>Team Token Vesting Schedule</h3>
+              <ul>
+                  <li>Day 1-30: Initial lock period</li>
+                  <li>Day 30: 10% of team allocation unlocked (3% of total supply)</li>
+                  <li>Months 2-13: Remaining 90% vests linearly</li>
+                  <li>Approximately 2.25% of total supply released monthly</li>
+                  <li>Month 13: Full vesting completed</li>
+              </ul>
+              <p>This vesting schedule ensures long-term commitment from the team while gradually increasing circulating supply.</p>
+          </div>
+      </section>
+    <section class="faq" id="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Is this an official Eric Trump product?</h3>
+                    <span class="toggle-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>No, this is a community-driven meme token project inspired by Eric Trump.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>What is the official token address and symbol?</h3>
+                    <span class="toggle-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>The official token symbol is $ERIC and the contract address is CA : IN PROGRESS.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>How can I get $ERIC tokens?</h3>
+                    <span class="toggle-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>You can acquire $ERIC tokens through major DEX platforms using SOL.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>What is a meme token?</h3>
+                    <span class="toggle-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>A meme token is a cryptocurrency that originates from internet memes or popular cultural references.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Which blockchain network is $ERIC minted on?</h3>
+                    <span class="toggle-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>$ERIC is minted on the Solana blockchain network.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>What else should I know?</h3>
+                    <span class="toggle-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>$ERIC features 0% buy and sell tax, fully renounced contract, and a strong community-driven approach.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <footer>
+    <div class="footer-container">
+        <div class="footer-disclaimer">
+            <p>$ERIC tokens are digital collectibles intended to function as an expression of support for and engagement with the values embodied by the symbol $ERIC and the associated artwork, and are not intended to be, or to be the subject of, an investment opportunity, investment contract, or security of any type. This website is not political and has nothing to do with any political campaign or any political office or governmental agency. <a href="tos.html">See Terms & Conditions Here</a></p>
+        </div>
+        
+        <div class="footer-warning">
+            <p>$ERIC will never call, text, email or otherwise contact you to request your personal information. Please be careful.</p>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>© 2024 $ERIC. All rights reserved.</p>
+            <a href="tos.html">Terms & Conditions</a>
+        </div>
+    </div>
+</footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+</body>
+</html>
