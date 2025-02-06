@@ -93,7 +93,7 @@ function showNotification(message) {
 }
 
 function copyContract() {
-    const contractAddress = 'AC2VaE5EfmWV5Gp8TXDmR42Xt7m2aHCRyMNmg64ppump';
+    const contractAddress = 'COMING SOON';
     navigator.clipboard.writeText(contractAddress).then(() => {
         const copyButton = document.querySelector('.copy-button');
         copyButton.textContent = 'Copied!';
